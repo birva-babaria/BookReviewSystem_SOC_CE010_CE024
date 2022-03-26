@@ -1,0 +1,28 @@
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.exe.config
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.exe
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.pdb
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.dll
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.pdb
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.dll.config
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.Form1.resources
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.Properties.Resources.resources
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.CopyComplete
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.exe
+C:\Users\Admin\Documents\SOCProject\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.pdb
+D:\soc project\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.exe.config
+D:\soc project\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.exe
+D:\soc project\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.pdb
+D:\soc project\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.dll
+D:\soc project\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.pdb
+D:\soc project\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.dll.config
+D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.AssemblyReference.cache
+D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.Form1.resources
+D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.Properties.Resources.resources
+D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.GenerateResource.cache
+D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.CoreCompileInputs.cache
+D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.CopyComplete
+D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.exe
+D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.pdb

@@ -26,3 +26,17 @@ D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.c
 D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.CopyComplete
 D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.exe
 D:\soc project\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.pdb
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.exe.config
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.exe
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewHostApp.pdb
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.dll
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.pdb
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\bin\Debug\BookReviewSystem.dll.config
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.AssemblyReference.cache
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.Form1.resources
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.Properties.Resources.resources
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.GenerateResource.cache
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.CoreCompileInputs.cache
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.csproj.CopyComplete
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.exe
+D:\BookReviewSystem_SOC_CE010_CE024\BookReviewHostApp\BookReviewHostApp\obj\Debug\BookReviewHostApp.pdb

@@ -14,7 +14,6 @@ namespace BookReviewSystem
         {
             SqlDataAdapter da = new SqlDataAdapter("SELECT Id, Name, Author, DatePublished, Good, Average, Bad",
                 @"Data Source=(localdb)\ProjectsV13;Initial Catalog=bookDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-
             DataSet ds = new DataSet();
             da.Fill(ds, "books");
             return ds;
@@ -94,7 +93,7 @@ namespace BookReviewSystem
             cmd1.Parameters.AddWithValue("@id", Id);
             SqlDataReader reader = cmd1.ExecuteReader();
             int good = 0;
-	        int average = 0;
+            int average = 0;
             int bad = 0;
             double goodper;
             while(reader.Read())
@@ -125,7 +124,7 @@ namespace BookReviewSystem
             cmd1.Parameters.AddWithValue("@id", Id);
             SqlDataReader reader = cmd1.ExecuteReader();
             int good = 0;
-	        int average = 0;
+            int average = 0;
             int bad = 0;
             double avgper;
             while (reader.Read())
@@ -156,7 +155,7 @@ namespace BookReviewSystem
             cmd1.Parameters.AddWithValue("@id", Id);
             SqlDataReader reader = cmd1.ExecuteReader();
             int good = 0;
-	        int average = 0;
+            int average = 0;
             int bad = 0;
             double badper;
             while (reader.Read())
@@ -166,7 +165,7 @@ namespace BookReviewSystem
 		        bad = reader.GetInt32(2);
             }
             bad += 1;
-	        badper = (bad / (good + average + bad)) * 100;
+            badper = (bad / (good + average + bad)) * 100;
             cnn.Close();
 
             SqlCommand cmd2 = new SqlCommand("UPDATE books SET Bad = @bad WHERE Id = @id");

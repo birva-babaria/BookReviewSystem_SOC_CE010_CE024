@@ -95,7 +95,9 @@ namespace BookReviewSystem
             int good = 0;
             int average = 0;
             int bad = 0;
-            double goodper;
+            double goodper = 0.00;
+            double avgper = 0.00;
+            double badper = 0.00;
             while(reader.Read())
             {
                 good = reader.GetInt32(0);
@@ -103,17 +105,29 @@ namespace BookReviewSystem
 		        bad = reader.GetInt32(2);
             }
             good += 1;
-	        goodper = (good / (good + average + bad)) * 100;
+            int total = good + average + bad;
+            goodper = (Convert.ToDouble(good) / Convert.ToDouble(total)) * 100.00;
+            avgper = (Convert.ToDouble(average) / Convert.ToDouble(total)) * 100.00;
+            badper = (Convert.ToDouble(bad) / Convert.ToDouble(total)) * 100.00;
+
+            goodper = Math.Truncate(goodper * 100) / 100;
+            avgper = Math.Truncate(avgper * 100) / 100;
+            badper = Math.Truncate(badper * 100) / 100;
+
             cnn.Close();
 
-            SqlCommand cmd2 = new SqlCommand("UPDATE books SET Good = @good WHERE Id = @id");
+            SqlCommand cmd2 = new SqlCommand("UPDATE books SET Good = @good , GoodPercentage= @goodper,AveragePercentage = @avgper, BadPercentage = @badper WHERE Id = @id");
             cmd2.Parameters.AddWithValue("@good", good);
+            cmd2.Parameters.AddWithValue("@goodper", goodper);
+            cmd2.Parameters.AddWithValue("@avgper", avgper);
+            cmd2.Parameters.AddWithValue("@badper", badper);
+
             cmd2.Parameters.AddWithValue("@id", Id);
             cnn.Open();
             cmd2.Connection = cnn;
             cmd2.ExecuteNonQuery();
             cnn.Close();
-            return "Good review added";
+            return goodper.ToString() ;
         }
         string IBookService.AverageReview(int Id)
         {
@@ -126,7 +140,9 @@ namespace BookReviewSystem
             int good = 0;
             int average = 0;
             int bad = 0;
-            double avgper;
+            double goodper = 0.00;
+            double avgper = 0.00;
+            double badper = 0.00;
             while (reader.Read())
             {
                 good = reader.GetInt32(0);
@@ -134,17 +150,27 @@ namespace BookReviewSystem
 		        bad = reader.GetInt32(2);
             }
             average += 1;
-	        avgper = (average / (good + average + bad)) * 100;
+            int total = good + average + bad;
+            goodper = (Convert.ToDouble(good) / Convert.ToDouble(total)) * 100.00;
+            avgper = (Convert.ToDouble(average) / Convert.ToDouble(total)) * 100.00;
+            badper = (Convert.ToDouble(bad) / Convert.ToDouble(total)) * 100.00;
+
+            goodper = Math.Truncate(goodper * 100) / 100;
+            avgper = Math.Truncate(avgper * 100) / 100;
+            badper = Math.Truncate(badper * 100) / 100;
             cnn.Close();
 
-            SqlCommand cmd2 = new SqlCommand("UPDATE books SET Average = @average WHERE Id = @id");
+            SqlCommand cmd2 = new SqlCommand("UPDATE books SET Average = @average ,GoodPercentage= @goodper,AveragePercentage = @avgper, BadPercentage = @badper WHERE Id = @id");
             cmd2.Parameters.AddWithValue("@average", average);
+            cmd2.Parameters.AddWithValue("@goodper", goodper);
+            cmd2.Parameters.AddWithValue("@avgper", avgper);
+            cmd2.Parameters.AddWithValue("@badper", badper);
             cmd2.Parameters.AddWithValue("@id", Id);
             cnn.Open();
             cmd2.Connection = cnn;
             cmd2.ExecuteNonQuery();
             cnn.Close();
-            return "Average review added";
+            return avgper.ToString();
         }
         string IBookService.BadReview(int Id)
         {
@@ -157,7 +183,9 @@ namespace BookReviewSystem
             int good = 0;
             int average = 0;
             int bad = 0;
-            double badper;
+            double goodper = 0.00;
+            double avgper = 0.00;
+            double badper = 0.00;
             while (reader.Read())
             {
                 good = reader.GetInt32(0);
@@ -165,17 +193,27 @@ namespace BookReviewSystem
 		        bad = reader.GetInt32(2);
             }
             bad += 1;
-            badper = (bad / (good + average + bad)) * 100;
+            int total = good + average + bad;
+            goodper = (Convert.ToDouble(good) / Convert.ToDouble(total)) * 100.00;
+            avgper = (Convert.ToDouble(average) / Convert.ToDouble(total)) * 100.00;
+            badper = (Convert.ToDouble(bad) / Convert.ToDouble(total)) * 100.00;
+
+            goodper = Math.Truncate(goodper * 100) / 100;
+            avgper = Math.Truncate(avgper * 100) / 100;
+            badper = Math.Truncate(badper * 100) / 100;
             cnn.Close();
 
-            SqlCommand cmd2 = new SqlCommand("UPDATE books SET Bad = @bad WHERE Id = @id");
+            SqlCommand cmd2 = new SqlCommand("UPDATE books SET Bad = @bad , GoodPercentage= @goodper,AveragePercentage = @avgper, BadPercentage = @badper WHERE Id = @id");
             cmd2.Parameters.AddWithValue("@bad", bad);
+            cmd2.Parameters.AddWithValue("@goodper", goodper);
+            cmd2.Parameters.AddWithValue("@avgper", avgper);
+            cmd2.Parameters.AddWithValue("@badper", badper);
             cmd2.Parameters.AddWithValue("@id", Id);
             cnn.Open();
             cmd2.Connection = cnn;
             cmd2.ExecuteNonQuery();
             cnn.Close();
-            return "Bad review added";
+            return badper.ToString() ;
         }
     }
 }

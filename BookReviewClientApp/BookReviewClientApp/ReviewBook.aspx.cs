@@ -20,8 +20,8 @@ namespace BookReviewClientApp
             int Id = Convert.ToInt32(id.Text);
             string Name = name.Text;
             BookReviewClientApp.BookServiceReference.BookServiceClient proxy = new BookReviewClientApp.BookServiceReference.BookServiceClient("WSHttpBinding_IBookService");
-            string per = proxy.GoodReview(Id);
-            Label4.Text = "good review";
+            string msg = proxy.GoodReview(Id);
+            Label4.Text = msg;
         }
 
         protected void avgreview_Click(object sender, EventArgs e)
@@ -30,8 +30,8 @@ namespace BookReviewClientApp
             int Id = Convert.ToInt32(id.Text);
             string Name = name.Text;
             BookReviewClientApp.BookServiceReference.BookServiceClient proxy = new BookReviewClientApp.BookServiceReference.BookServiceClient("WSHttpBinding_IBookService");
-            string per = proxy.AverageReview(Id);
-            Label4.Text = "Avg review" ;
+            string msg = proxy.AverageReview(Id);
+            Label4.Text = msg;
 
         }
 
@@ -41,8 +41,8 @@ namespace BookReviewClientApp
             int Id = Convert.ToInt32(id.Text);
             string Name = name.Text;
             BookReviewClientApp.BookServiceReference.BookServiceClient proxy = new BookReviewClientApp.BookServiceReference.BookServiceClient("WSHttpBinding_IBookService");
-            string per = proxy.BadReview(Id);
-            Label4.Text = "bad review";
+            string msg = proxy.BadReview(Id);
+            Label4.Text = msg;
         }
 
         protected void BackButton_Click(object sender, EventArgs e)

@@ -19,3 +19,10 @@ D:\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\obj\Debug\
 D:\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\bin\Debug\BookReviewSystem.dll.config
 D:\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\bin\Debug\BookReviewSystem.dll
 D:\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\bin\Debug\BookReviewSystem.pdb
+C:\Users\Admin\Documents\SOC\Project\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\bin\Debug\BookReviewSystem.dll.config
+C:\Users\Admin\Documents\SOC\Project\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\bin\Debug\BookReviewSystem.dll
+C:\Users\Admin\Documents\SOC\Project\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\bin\Debug\BookReviewSystem.pdb
+C:\Users\Admin\Documents\SOC\Project\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\obj\Debug\BookReviewSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\SOC\Project\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\obj\Debug\BookReviewSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\SOC\Project\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\obj\Debug\BookReviewSystem.dll
+C:\Users\Admin\Documents\SOC\Project\BookReviewSystem_SOC_CE010_CE024\BookReviewSystem\BookReviewSystem\obj\Debug\BookReviewSystem.pdb

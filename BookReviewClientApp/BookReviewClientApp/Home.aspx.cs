@@ -15,7 +15,7 @@ namespace BookReviewClientApp
         {
             //BookReviewClientApp.BookServiceReference.BookServiceClient proxy = new BookServiceReference.BookServiceClient("WSHttpBinding_IBookService");
             //DataSet ds = proxy.GetBooks();
-            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=bookDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=bookDB;Integrated Security=True;Pooling=False");
             SqlCommand cmd = new SqlCommand("select Id,Name,Author,DatePublished,GoodPercentage,AveragePercentage,BadPercentage from books", con);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();
